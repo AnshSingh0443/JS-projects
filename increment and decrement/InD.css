@@ -1,0 +1,49 @@
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #344151 ;
+    overflow-x:hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #344151 ;
+    gap: 20px;
+}
+.box-text{
+    font-size: medium;
+    color: #0398d0;
+}
+.box2{
+    display: flex;
+    background-color: white;
+    color: #344151;
+    gap: 12px;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 3px;
+    
+    
+    
+}
+.btn{
+    font-size: 25px;
+    border-color: #bfbfbf;
+    
+}
+.minus{
+    border-left: 5px;
+}
+.plus{
+    border-right: 5px;
+}
+#counter{
+    font-size: 25px;
+    font: bold;
+}
